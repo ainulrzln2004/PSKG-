@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+storage/
+pskg_dev.db-journal
+.pytest_cache/
+
+# Local database (may contain personal data) - never commit
+*.db
+*.db-journal
+.DS_Store
